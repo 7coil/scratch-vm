@@ -11,7 +11,7 @@
   },
   "main": "./dist/node/scratch-vm.js",
   "browser": "./src/index.js",
-  "types": "./types",
+  "types": "./types/index.d.ts",
   "scripts": {
     "build": "npm run docs && webpack --progress --colors --bail",
     "coverage": "tap ./test/{unit,integration}/*.js --coverage --coverage-report=lcov",
